@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = ({ cartCount, setView }) => {
   return (
-    <div className="w-full px-4 md:px-10 lg:px-20 py-3 bg-white">
+    <div className="w-full px-4 md:px-10 lg:px-50 py-3 bg-white">
       <div className="flex justify-between items-center">
         <div>
           <a className="text-2xl md:text-3xl font-bold bg-linear-to-r from-[#4f39f6] to-[#9514fa] inline-block text-transparent bg-clip-text">

@@ -7,9 +7,9 @@ import rocketImg from "../assets/rocket.png";
 
 const Steps = () => {
   return (
-    <section className="py-16 md:py-24 px-4 md:px-10 lg:px-20 text-center bg-white">
+    <section className="py-16 md:py-24 px-4 md:px-10 lg:px-50 text-center bg-white">
 
-      {/* Heading */}
+      
       <div className="mb-14">
         <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-[#101727] mb-4">
           Get Started in 3 Steps
@@ -20,13 +20,13 @@ const Steps = () => {
         </p>
       </div>
 
-      {/* Cards */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         {/* STEP 1 */}
         <div className="relative flex flex-col items-center p-8 rounded-2xl shadow-lg border border-gray-50">
 
-          <div className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">
+          <div className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center bg-linear-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">
             <span className="font-bold">01</span>
           </div>
 
@@ -46,7 +46,7 @@ const Steps = () => {
         {/* STEP 2 */}
         <div className="relative flex flex-col items-center p-8 rounded-2xl shadow-lg border border-gray-50">
 
-          <div className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">
+          <div className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center bg-linear-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">
             <span className="font-bold">02</span>
           </div>
 
@@ -66,7 +66,7 @@ const Steps = () => {
         {/* STEP 3 */}
         <div className="relative flex flex-col items-center p-8 rounded-2xl shadow-lg border border-gray-50">
 
-          <div className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center bg-gradient-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">
+          <div className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center bg-linear-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">
             <span className="font-bold">03</span>
           </div>
 

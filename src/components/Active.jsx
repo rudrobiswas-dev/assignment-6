@@ -2,7 +2,7 @@ import React from "react";
 
 const Active = () => {
   return (
-    <div className="text-white bg-gradient-to-r from-[#4f39f6] to-[#9514fa] py-16 md:py-20 shadow-xl">
+    <div className="text-white bg-linear-to-r from-[#4f39f6] to-[#9514fa] py-16 md:py-20 shadow-xl">
       <div className="max-w-6xl mx-auto px-4 md:px-10 lg:px-20">
         <div className="grid grid-cols-1 sm:grid-cols-3 text-center gap-10 items-center">
           <div>

@@ -77,7 +77,7 @@ const Cart = ({ cart, handleRemove, handleCheckout }) => {
 
           <button
             onClick={handleCheckout}
-            className="btn mt-6 w-full rounded-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white font-bold py-3"
+            className="btn mt-6 w-full rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white font-bold py-3"
           >
             Proceed to Checkout
           </button>
