@@ -4,7 +4,7 @@ const Pricing = () => {
     return (
         <div>
             <section className='flex flex-col items-center py-20 px-4 text-start bg-white'>
-                <div className='mb-16'>
+                <div className='mb-16 text-center'>
                         <h1 className='text-5xl md:text-7xl font-bold text-[#101727] mb-5'>
                             Simple, Transparent Pricing
                         </h1>

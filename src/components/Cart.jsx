@@ -1,3 +1,5 @@
+import Cart1 from '../assets/Cart1.png'; 
+
 const Cart = ({ cart, handleRemove, handleCheckout }) => {
 
   const total = cart.reduce((sum, item) => sum + item.price, 0)
@@ -6,14 +8,20 @@ const Cart = ({ cart, handleRemove, handleCheckout }) => {
     <div className="px-50 py-10">
 
       {cart.length === 0 ? (
-        <div className="border-amber-400 border-2 bg-gray-100">
-          <h1 className="text-center text-2xl text-gray-950">Cart is Empty</h1>
-
+        <div className=''>
+          <div className=" relative flex flex-col-reverse justify-center items-center text-center border-gray-100 border-2  my-8 rounded-xl shadow-xl/20">
+          <h2 className="absolute top-5 left-7 text-gray-900 font-bold text-2xl pb-5 ">
+            Your Cart
+          </h2>
+          <h1 className="text-center text-2xl text-gray-950 px-40 pb-20 opacity-10">Cart is Empty</h1>
+           <img className='w-50 pt-20 opacity-5' src={Cart1} alt="Cart1" />
         </div>
+        </div>
+        
       ) : (
         <div className="border-2 border-gray-100 rounded-2xl p-10 shadow-xl/30">
 
-          <h2 className="text-gray-950 font-bold text-2xl pb-5">
+          <h2 className="text-gray-900 font-bold text-2xl pb-5 ">
             Your Cart
           </h2>
 

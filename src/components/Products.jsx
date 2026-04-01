@@ -15,13 +15,13 @@ const Products = ({ handleAddToCart }) => {
             </span>
           </div>
 
-          <h2 className="text-2xl font-bold text-gray-950">
+          <h2 className="text-2xl font-bold text-gray-950 py-3">
             {product.name}
           </h2>
 
-          <p>{product.description}</p>
+          <p className="py-2">{product.description}</p>
 
-          <p className="font-bold text-xl text-gray-950">
+          <p className="font-bold text-xl text-gray-950 py-2">
             ${product.price} ({product.period})
           </p>
 
