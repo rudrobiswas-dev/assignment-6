@@ -5,7 +5,7 @@ const Navbar = ({ cartCount, setView }) => {
     <div className="w-full px-4 md:px-10 lg:px-20 py-3 bg-white">
       <div className="flex justify-between items-center">
         <div>
-          <a className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#4f39f6] to-[#9514fa] inline-block text-transparent bg-clip-text">
+          <a className="text-2xl md:text-3xl font-bold bg-linear-to-r from-[#4f39f6] to-[#9514fa] inline-block text-transparent bg-clip-text">
             DigiTools
           </a>
         </div>
@@ -43,7 +43,7 @@ const Navbar = ({ cartCount, setView }) => {
           <button className="hidden sm:block btn btn-ghost rounded-full text-[#101727] hover:text-white">
             Login
           </button>
-          <button className="hidden sm:block rounded-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white font-bold py-2 px-4">
+          <button className="hidden sm:block rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white font-bold py-2 px-4">
             Get Started
           </button>
           {/* Mobile*/}
