@@ -19,16 +19,13 @@ const Hero = () => {
                                 New: AI-Powered Tools Available
                             </span>
                         </div>                      
-
                         <h1 className="text-8xl font-bold text-[#4f39f6] pt-5">
                             Supercharge Your Digital Workflow
                         </h1>
-
                         <p className="text-[#627382] py-6">
                             Access premium AI tools, design assets, templates, and productivity <br />
                             software—all in one place. Start creating faster today.
                         </p>
-
                         <div className='flex gap-3'>
                             <button className='rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] hover:from-[#9514fa] hover:to-[#4f39f6] text-white font-bold py-2 px-4 transition-all duration-300'>
                                 Explore Products
@@ -40,13 +37,10 @@ const Hero = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
-
-                    
+                    </div>  
                     <div>
                         <img className='w-125' src={banner} alt="banner" />
                     </div>
-
                 </div>
             </div>  
         </div>
