@@ -45,33 +45,44 @@ function App() {
       <Active />
 
       {/* Toggle Buttons */}
-      <div className="flex justify-center my-10">
-        <div className='w-fit bg-gray-100 p-2 rounded-full'>
-          
-          <button
-            onClick={() => setView("products")}
-            className={`btn border-none mr-4 rounded-full font-bold py-2 px-4 ${
-              view === "products"
-                ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
-                : "bg-white text-gray-950"
-            }`}
-          >
-            Products
-          </button>
+      <div className="flex flex-col justify-center items-center my-10 text-center">
+  
+  <div>
+    <h1 className='text-5xl md:text-7xl font-bold text-[#101727] mb-5 pt-10'>
+      Premium Digital Tools
+    </h1>
+    <p className='text-xl font-normal text-gray-400'>
+        Choose from our curated collection of premium digital products designed
+        to boost your productivity and creativity.
+    </p>
+  </div>
 
-          <button
-            onClick={() => setView("cart")}
-            className={`btn border-none rounded-full font-bold py-2 px-4 ${
-              view === "cart"
-                ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
-                : "bg-white text-gray-950"
-            }`}
-          >
-            Cart ({cart.length})
-          </button>
+  <div className='w-fit bg-gray-100 p-2 rounded-full mt-6'>
+    
+    <button
+      onClick={() => setView("products")}
+      className={`btn border-none mr-4 rounded-full font-bold py-2 px-4 ${
+        view === "products"
+          ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
+          : "bg-white text-gray-950"
+      }`}
+    >
+      Products
+    </button>
 
-        </div>
-      </div>
+    <button
+      onClick={() => setView("cart")}
+      className={`btn border-none rounded-full font-bold py-2 px-4 ${
+        view === "cart"
+          ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
+          : "bg-white text-gray-950"
+      }`}
+    >
+      Cart ({cart.length})
+    </button>
+
+  </div>
+</div>
 
       {/* Views */}
       {view === "products" ? (

@@ -6,9 +6,10 @@ const Cart = ({ cart, handleRemove, handleCheckout }) => {
     <div className="px-50 py-10">
 
       {cart.length === 0 ? (
-        <h1 className="text-center text-2xl text-gray-950">
-          Cart is Empty
-        </h1>
+        <div className="border-amber-400 border-2 bg-gray-100">
+          <h1 className="text-center text-2xl text-gray-950">Cart is Empty</h1>
+
+        </div>
       ) : (
         <div className="border-2 border-gray-100 rounded-2xl p-10 shadow-xl/30">
 
